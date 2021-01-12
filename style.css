@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.query{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    box-shadow:2px 2px 12px grey;
+}
+.query input{
+    width: 80vw;
+    outline: none;
+    height: 44px;
+    font-size: 23px;
+}
+.query button{
+    padding: 15px 14px ;
+    background: cyan;
+    outline: none;
+    border: 2px solid cyan;
+    margin-left: 12px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.response{
+    box-shadow: 2px 2px 11px grey   ;
+    margin: 34px 34px ;
+    margin-left: 204px;
+    padding: 23px 34px;
+    background: #ffffff;
+    width: 60vw;
+    height: 56vh;
+
+}
+.response h4{
+    color: black;
+    font-size: 45px;
+    text-align: center;
+}
+.response #errorh{
+    font-size: 23px;
+    color: red;
+    text-align: center;
+
+}
+.response p{
+    font-size: 23px;
+    text-align: center;
+    line-height: 23px;
+    padding-top: 34px;
+}
+.response span{
+    color: green;
+}
